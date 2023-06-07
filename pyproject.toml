@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "todo-lambda"
+version = "0.1.0"
+description = "TodoBackend for AWS Lambdas"
+authors = ["Eric Rochester <eric.rochester@willowtreeapps.com>"]
+readme = "README.md"
+packages = [{include = "todo_lambda"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
