@@ -9,3 +9,6 @@ deploy: test
     sam build --use-container
     sam local invoke
     sam deploy --guided
+
+requirements:
+    poetry export --without-hashes --format=requirements.txt > requirements.txt

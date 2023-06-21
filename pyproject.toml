@@ -8,6 +8,7 @@ packages = [{include = "todo_lambda"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+chalice = "^1.29.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"

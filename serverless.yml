@@ -1,0 +1,11 @@
+service: todo-lambda
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.10
+
+functions:
+  hello:
+    handler: app.hello
