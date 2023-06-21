@@ -7,7 +7,7 @@ app = Chalice(app_name='todo-lambda')
 
 @app.route('/')
 def index():
-    return {'hello': 'world'}
+    return []
 
 
 @app.lambda_function()
